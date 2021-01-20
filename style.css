@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: #5A5A5A;
+    text-align: center;
+    margin: 14px 30px;
+    text-decoration: none;
+  }
+
+li a:last-of-type {
+    margin-right: 0;
+}  
+
+#navbar {
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+}  
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #5A5A5A;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    cursor: pointer;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: #5A5A5A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#logo {
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.portfolio_template {
+    background-color:	#F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.portfolio_template button {
+    background-color: #3C3C3C;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.portfolio_template button:hover {
+    cursor: pointer;
+}
+
+#boxes {
+    width: 95%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.box {
+    display: flex;
+    width: 22%;
+    height: 33%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 7px 5px 0px rgba(163,158,163,1);
+}
+
+.box h1 {
+    margin: 0;
+}
+
+.first {
+    background-color: #FF6B4E;
+}
+.second {
+    background-color: #9E57BD;
+}
+.third {
+    background-color: #45C1AD;
+}
+.fourth {
+    background-color: #3798DE;
+}
+
+#choose_your_demo {
+    background-color:  	#F8F8F8;
+    padding: 4% 15%;
+}
+
+#heading {
+    height: 33%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#heading button {
+    padding: 5px 10px;
+    background-color: #EFEFEF;
+    color: 	#434344;
+
+}
+#heading #first_button {
+    background-color: #070707;
+    color: white;
+}
+#heading h1 {
+    text-align: center;
+    color: #434344;
+}
+#images {
+    background-color:#F8F8F8 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+#images img {
+    width: 300px;
+    height: 200px;
+    margin: 1.5%;
+    box-shadow: 3px 6px 5px 0px rgba(163,158,163,1)
+}
+#images img:hover {
+    border: 2px solid gray;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: lightgray solid 1px;
+    width: 70px;
+}
+
+.arrow {
+    width: 15px;
+    height: 10px;
+    margin-right: 3px;
+}
+
+#features {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-top: 20px;
+
+}
+
+#features p {
+    width: 33%;
+    margin-bottom: 50px;
+}
+
+#links {
+    background-color:  	#444444;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+}
+#links a {
+    margin: 10px;
+    color: white;
+}
+
+#icons i {
+    font-size: 2em;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 50px 20px 5px 20px; */
+    padding: 3% 2% 0.5% 2%;
+}
+
+
+#mobile_menu {
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+    display: none;
+}
+#menu div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  
+  }
+
+@media only screen and (max-width: 600px) {
+    
+    #navbar {
+        display: none;
+    }
+    #mobile_menu {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5% 0 10% ;
+    }
+    .portfolio_template {
+        width: 100vw;
+        padding-left:10% ;
+        padding-right: 20%;
+    }
+
+    #boxes {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        margin: 0 5% 0 10% ;
+      }
+      .box {
+          margin: 5px;
+      }
+
+     #choose_your_demo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding-left:10% ;
+        padding-right: 20%;
+      }
+      #images {
+        width: 100vw;
+        padding-left:10% ;
+        padding-right: 20%;
+    }
+      #choose_your_demo img {
+          width: 100%;
+      }
+    #title {
+        width: 100vw;
+        padding-left:10% ;
+        padding-right: 20%;  
+      }
+
+      #features {
+          width: 100vw;
+      }
+      #features p {
+          width: 40%;
+          margin: 2%;
+      }
+
+      #links {
+        width: 100vw;
+        padding-left:10% ;
+        padding-right: 20%; 
+      }
+      footer {
+        width: 126vw;
+        
+      }
+
+    
+}
